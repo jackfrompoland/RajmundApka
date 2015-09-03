@@ -5,6 +5,11 @@ var HomeView = function(store) {
         // Element 'el' jest divem
         this.el = $('<div/>');
 
+        logowanie("ala");
+        logowanie("ma");
+        logowanie("kota");
+
+
         //podpinamy zdarzenie pod elementy z okreslona klasa, ktore beda znajdowac sie w naszym div'ie
         this.el.on('keyup', '.search-key', this.findByName);
     };
@@ -23,6 +28,11 @@ var HomeView = function(store) {
 
     this.initialize();
 
+}
+
+function logowanie(tresc)
+{
+    $('#logger').append("</br>" + tresc);
 }
 
 HomeView.template = Handlebars.compile($("#home-tpl").html());

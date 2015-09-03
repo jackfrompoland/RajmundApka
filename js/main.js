@@ -83,7 +83,8 @@ var app = {
 
     },
 
-    initialize: function() {
+    initialize: function () {
+        logowanie("inicjalizacja");
         var self = this;
         this.detailsURL = /^#employees\/(\d{1,})/;
         this.registerEvents();

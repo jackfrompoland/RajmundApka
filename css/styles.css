@@ -13,6 +13,12 @@ body {
     position: relative;
 }
 
+#logger {
+    left:120px;
+    top:300px;
+    position:fixed;
+}
+
 .header {
     background: #666;
     -webkit-background-size: 1px 44px;
