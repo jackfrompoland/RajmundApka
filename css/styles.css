@@ -17,6 +17,7 @@ body {
     left:120px;
     top:300px;
     position:fixed;
+    font-style:italic;
 }
 
 .header {

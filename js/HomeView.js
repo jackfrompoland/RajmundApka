@@ -30,7 +30,8 @@ var HomeView = function(store) {
         return this;
     };
 
-    this.findByName = function() {
+    this.findByName = function () {
+        logowanie("find by name");
         store.findByName($('.search-key').val(), function(employees) {
             $('.employee-list').html(HomeView.liTemplate(employees));
         });
