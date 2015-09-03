@@ -8,6 +8,16 @@ var HomeView = function(store) {
         logowanie("ala");
         logowanie("ma");
         logowanie("kota");
+        logowanie("ala");
+        logowanie("ma");
+        logowanie("kota");
+        logowanie("ala");
+        logowanie("ma");
+        logowanie("kota");
+        logowanie("ala");
+        logowanie("ma");
+        logowanie("kota");
+
 
 
         //podpinamy zdarzenie pod elementy z okreslona klasa, ktore beda znajdowac sie w naszym div'ie
