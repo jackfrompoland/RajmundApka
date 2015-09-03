@@ -13,6 +13,7 @@ var EmployeeView = function(employee) {
     this.render = function () {
         //przekazanie 'employee' powoduje, ze w template mozna stosowac pola wskazanego obiektu np
         //<h1>{{firstName}} {{lastName}}</h1>
+        logowanie("renderowanie employee view");
         this.el.html(EmployeeView.template(employee));
         return this;
     };
